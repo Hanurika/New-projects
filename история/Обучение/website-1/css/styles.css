@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  background: #FFFEF9;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+input, button{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  border-radius: 5px;
+  color: #000;
+}
+
+.header{
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.15);
+  background: #fff;
+}
+
+.header_wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  
+}
+
+
+
+.container{
+  width: 600px;
+  margin: 0 auto;
+}
+
+.header_logo{
+  width: 35px;
+  height: 35px;
+  background: #D23669;
+  border-radius: 50%;
+}
+
+.header_auth{
+  display: flex;
+  gap: 20px;
+}
+
+.header_auth a{
+  padding: 8px  28px;
+}
+
+
+.header_auth_login{
+  background: #D23669;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.header_auth_register{
+  color: #D23669;
+  border: 1px solid #D23669;
+  transition: all .2s;
+}
+
+.header_auth_register:hover{
+    background: #d2366960;
+}
+
+
+.btn_solid{
+  background: #D23669;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: 8px  28px;
+}
+
+.header_user{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header_user_card{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.home{
+  margin-top: 20px;
+}
+
+
+.cards{
+  margin: 26px 0 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cards_item{
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  border-radius: 5px;
+  padding: 13px 40px 40px 40px;
+}
+
+.cards_item_header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards_item_header h2{
+  color: #D23669;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.cards_item span{
+  margin-top: 11px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #A5A5A5;
+}
+
+.cards_item p{
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+} 
+
+
+
+@media screen and (max-width: 400px) {
+  body{
+    background: #000;
+  }
+}

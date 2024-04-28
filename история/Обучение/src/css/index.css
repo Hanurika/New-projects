@@ -1,0 +1,518 @@
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonst/Lato/Lato-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+p{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+button,
+input {
+  font-family: "Lato", sans-serif;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1230px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+}
+
+.header_top {
+  background: #1e212c;
+}
+
+.header_top * {
+  color: #fff9;
+}
+
+.header_top_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 44px;
+}
+
+.header_top_right {
+}
+
+.header_top_list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.header_top_left {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.header_top_left_select {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.header_top_left_auth {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* header_bottom */
+
+.header_bottom_wrap {
+  display: flex;
+  align-items: center;
+  height: 84px;
+}
+
+.header_bottom_nav {
+  margin-left: 60px;
+}
+
+.header_bottom_list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header_search {
+  margin-left: 133px;
+  background: #ffffff;
+  border: 1px solid #d7dadd;
+  border-radius: 4px;
+  width: 380px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  padding: 11px 16px;
+}
+
+.header_search button {
+  background: transparent;
+}
+
+.header_search_field {
+  width: 100%;
+}
+
+.header_bottom_panel {
+  margin-left: 48px;
+  display: flex;
+}
+
+.header_bottom_panel > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header_bottom_favorite {
+  padding-right: 20px;
+  margin-right: 20px;
+  border-right: 1px solid #dbdbdb;
+}
+
+.header_bottom_cart > span {
+  width: 23px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #03cea4;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.sale_alert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 34px;
+  background: #17696a;
+  color: #ffffff;
+}
+
+.sale_alert * {
+  color: #ffffff;
+}
+
+.sale_alert p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.sale_alert p a {
+  text-decoration: underline;
+}
+
+/* Content */
+
+.logo{
+
+}
+
+.collection{
+  position: absolute;
+  top: 258px;
+  left: 345px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.Menswear{
+  position: absolute;
+  top: 297px;
+  left: 345px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 130%;
+}
+
+.maintext{
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.maintext img{
+  max-width: 100%;
+}
+.btnrigrht{
+  position: absolute;
+  top:538px;
+  left: 32px;
+}
+
+.btnleft{
+  position: absolute;
+  left: 1840px;
+  top: 538px;
+  transform: scaleX(-1);
+}
+
+.shoping{
+  gap: 24px;
+  position: absolute;
+  display: flex;
+  top:451px;
+  left: 345px;
+}
+
+.saling{
+  background: none;
+  border: solid ; 
+  color: #17696A;
+  align-items: center;
+  display: flex;
+}
+
+.smenswear{
+  background: #17696A;
+  color: #ffffff;
+}
+
+.shooping_menu{
+  display: flex;
+  position: relative;
+  top: -50px;
+  justify-content: center;
+  gap: 30px;
+}
+
+button{
+  left: 42px;
+  border-radius: 4px;
+  padding: 0px 40px;
+  height: 52px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 52px
+}
+
+.arrivalas, .popular_text{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 180px;
+}
+
+.arrivalas_text, .popular_text{
+  margin-top: 180px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+}
+
+.arrivalas span{
+  font-family: 'Lato';
+}
+
+.arrivalas_menu{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.arrivalas_menu p{
+  padding-top: 16px;
+  margin-bottom: 8px;
+}
+.arrivalas_menu img{
+  display: flex;
+  flex-direction: column;
+}
+
+.arrivalas_menu span{
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+padding-top: 16px;
+}
+
+.arrivalas_collection{
+  color: #17696A;
+}
+
+/* provisions */
+.provisions{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 276px 14px 180px 14px;
+
+}
+
+.provisions h2{
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 32px;
+  font-weight:  и900;
+  line-height: 130%;
+}
+
+.provisions h3{
+  font-size: 14px;
+}
+
+.summer{
+  width: 735px;
+  height: 500px;
+  background-image:url(../images/summer.png);
+}
+
+.summer_text, .deal_text, .newcolletion_text, .subscribers_text{
+  margin: 60px 0 0 60px;
+}
+.summer_text_h2, .deal_text_h2, .newcolletion_text_h2, .subscribers_text_h2 {
+  padding-top: 12px;
+  margin-bottom: 40px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.subscribers_button{
+  padding: 0px 32px;
+  background:#17696A;
+  border: solid ; 
+  color: #ffffff;
+  align-items: center;
+  display: flex;
+}
+
+.summer_button, .deal_button, .newcolletion_button {
+  padding: 0px 32px;
+  background: none;
+  border: solid ; 
+  color: #17696A;
+  align-items: center;
+  display: flex;
+}
+
+.choise_button{
+  position: absolute;
+  padding: 0px 32px;
+  background: none;
+  border: solid ; 
+  color: #17696A;
+  align-items: center;
+  display: flex;
+}
+
+
+.deal{
+  width: 1109px;
+  height: 500px;
+  background-image: url(../images/deal.png);
+}
+
+.deal_text{
+  width: 400px;
+  height: 200px;
+}
+
+.deal_text_time{
+  display: flex;
+  justify-content: space-between;
+}
+
+.newcolletion{
+  width: 1109px;
+  height: 500px;
+  background-image: url(../images/newcollections.png);
+}
+
+.subscribers{
+  width: 735px;
+  height: 500px;
+  background-image: url(../images/subscribers.png);
+}
+
+/* categories */
+.categories{
+margin-top: 180px;
+}
+
+.choise, a{
+  display: flex;
+  justify-content: center;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E212C;
+}
+
+.categories_text{
+  position: absolute;
+  ;
+   
+}
+.text{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.trending{
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #E5E8ED;
+  max-width: 1920px;
+  height: 950px;
+}
+
+.content_trending{
+  
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+}
+
+.choise{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 60px;
+}
+
+.sales_menu{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.seles_text{
+  padding-top: 100px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+}
+
+.price{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  padding-top: 16px;
+  color: red;
+}
+.price_bifore{
+  padding-top: 16px;
+  padding-left: 12px;
+  text-decoration: line-through;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  padding-top: 16px;
+  color: #787A80;
+}
+
+.line_right{
+  transform: scaleX(-1);
+}

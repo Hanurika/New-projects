@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+
+@import url("./variables.css");
+@import url("./fs-size.css");
+@import url("./button.css");
+
+@import url("./footer.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playfair Display";
+  color: #202336;
+  /* padding-bottom: 400px; */
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+button,
+input,
+textarea {
+  font-family: "Playfair Display";
+  outline: none;
+  border: none;
+}
+
+.container {
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  color: var(--gray_900);
+}
+
+.stories_top{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 26px;
+  align-items: center;
+}
+
+/* header */
+
+.header {
+  padding-top: 40px;
+}
+
+.header_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_logo {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background: var(--green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_logo div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--orange);
+  border: 3px solid #fff;
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.header_nav_list {
+  display: flex;
+  gap: 35px;
+}
+
+.header_nav_link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #b8becd;
+}
+.header_nav_link.active {
+  color: var(--gray_900);
+}
+
+.header_auth {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+/* home */
+
+.home {
+  margin-top: 80px;
+}
+
+.home_bg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.home_bg_calc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.home_bg_calc > span {
+  margin-top: 74px;
+}
+
+.home_bg_calc_select {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.home_bg_calc_select > div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.home_bg_calc_select > div select {
+  width: 220px;
+  border: 0.8px solid #afb0b9;
+  border-radius: 6px;
+  outline: none;
+  padding: 21px 11px;
+}
+
+.home_bg_calc .btn {
+  margin-top: 51px;
+  padding: 13px 60px;
+}
+
+.home_explore, .home_guildes, .home_testimonials{
+  margin-top: 250px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.home_explore_info, .home_guildes_info, .home_t_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.home_explore_info p {
+  color: var(--gray_200);
+}
+
+.rate{
+  padding-top: 145px;
+  display: flex;
+  gap:16px;
+}
+
+.text{
+  padding-bottom: 30px;
+}
+
+.name{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  color: #000000;
+  mix-blend-mode: normal;
+}
+
+.home_place {
+  margin-top: 250px;
+}
+
+.stories{
+  margin-top: 370px;
+
+}
+
+.stories_cards_place{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.stories_cards_place img{
+  width: 284px;
+  height: 330px;
+}
+
+.stories_cards_place span{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+  color: #FB8F1D;
+  mix-blend-mode: normal;
+}
+
+.stories_cards_place h2{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 30px;
+  color: #000000;
+  mix-blend-mode: normal;
+}
+
+.home_place_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home_place_body {
+  margin-top: 50px;
+  display: flex;
+  gap: 25px;
+}
+
+.home_place_card {
+  width: 305px;
+  height: 337px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+}
+
+.home_place_card img {
+  width: 305px;
+  height: 337px;
+  object-fit: cover;
+}
+
+.home_place_location {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 120px;
+  height: 56px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: #fff;
+  border-radius: 0px 6px 0px 0px;
+}
+
+.home_place_location h6 {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+  color: #042521;
+}
+.home_place_location span {
+  color: var(--gray_200);
+}

@@ -1,0 +1,15 @@
+.btn {
+  padding: 10px 30px;
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn-solid {
+  background: var(--orange);
+  color: #fff;
+}
+.btn-outline {
+  border: 1px solid var(--orange);
+  color: var(--orange);
+}

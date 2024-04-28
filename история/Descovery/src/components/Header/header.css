@@ -1,0 +1,44 @@
+.header {
+  max-width: 1751px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.search-img {
+  width: 15px;
+  height: 15px;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+input::placeholder {
+  color: antiquewhite;
+}
